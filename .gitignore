@@ -1,0 +1,35 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+package/build/
+package/build-metadata/
+package/dist/
+package/dist-*/
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dock runtime state
+.dock/
+
+# Website and JavaScript build artifacts
+node_modules/
+.pnpm-store/
+.next/
+out/
+
+# Local output and scratch data
+output/
+tmp/
