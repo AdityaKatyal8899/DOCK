@@ -1,0 +1,14 @@
+name: dock-test-proj
+
+docker:
+  enabled: true
+
+application:
+  image: dock-test-proj:latest
+  ports:
+    - host: 8000
+      container: 8000
+  healthcheck:
+    type: http
+    path: /
+    port: 8000

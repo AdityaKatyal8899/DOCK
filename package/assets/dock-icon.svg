@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Dock icon</title>
+  <desc id="desc">A blue container cube with a cream terminal face and orange action rays.</desc>
+  <g stroke="#08090d" stroke-width="14" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#3c45ff" d="M80 149 250 64l180 79-174 93z"/>
+    <path fill="#365fe8" d="m80 149 176 87v204L80 342z"/>
+    <path fill="#f5f0e3" d="m256 236 174-93v199l-174 92z"/>
+    <path fill="none" d="m80 149 176 87 174-93M256 236v204"/>
+    <path fill="#08090d" stroke="none" d="m115 168 18 9v119l-18-9zm45 22 18 9v119l-18-9zm45 22 18 9v119l-18-9zm45 22 18 9v119l-18-9z"/>
+    <path fill="none" stroke-width="20" d="m313 290 52 30-52 30m64-1 42-10"/>
+  </g>
+  <g fill="#ff641f">
+    <path d="m389 71 24-45 22 12-27 46z"/>
+    <path d="m434 105 35-31 17 20-39 29z"/>
+    <path d="m456 146 48-12 6 24-50 8z"/>
+  </g>
+</svg>

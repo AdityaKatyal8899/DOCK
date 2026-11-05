@@ -1,0 +1,7 @@
+name: hello-world
+
+docker:
+  enabled: true
+
+application:
+  image: hello-world:latest
