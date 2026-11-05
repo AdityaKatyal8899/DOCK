@@ -1,0 +1,23 @@
+Dock — AI-assisted, configuration-driven deployment control
+
+Dock is a command-line tool for making Docker deployments repeatable through a
+project's dock.yaml file. It inspects the project and Docker state, presents a
+deployment plan, and uses Dock's planner and executor to carry out supported
+operations.
+
+Dock's experimental AI workflow lets a user describe a deployment task in
+plain English. The model analyzes project context and returns a structured
+plan; Dock validates that response and asks the user to approve file changes
+or deployment operations before executing them. The model does not run shell
+commands or operate Docker directly. Project context collection excludes
+common secret files and does not read .env file contents.
+
+The source tree includes a BharatCode API provider using BharatCode's
+OpenAI-compatible Responses API. The integration is experimental and its live
+end-to-end API call is not yet verified. Dock also supports Gemini for local
+AI workflow testing. The published dock-api 0.2.1 package does not include the
+experimental AI features.
+
+Website: https://dockcloud.online
+Project documentation: package/README.md
+BharatCode API setup: package/docs/bharatcode-api.md
